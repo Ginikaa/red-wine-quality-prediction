@@ -1,7 +1,7 @@
 # red-wine-quality-prediction
 
 The aim of this project is to investigate and compare the effectiveness of Bayesian and non-Bayesian classification approaches for wine quality prediction using physicochemical properties as features. These properties include citric acidity, alcohol content, sulphates,volatile acidity,residual sugar,fixed acidity and so on. The classification models explored were Random forest, SVM, Relevance Vector Machine (RVM), MLP, Naive Bayes, KNN with the RVM being the Bayesian model.
-The dataset used was the red variants of the Portuguese "Vinho Verde" wine from kaggle [1].
+The dataset used was the red variants of the Portuguese "Vinho Verde" wine from kaggle [1]. The output variable contains the quality evaluation which consists of a score from 3 to 8, in increasing order of quality.
 
 Due to a high class imbalance in the original data, classification
 was explored using four approaches. Firstly, the data was modelled with the original quality classifications preserved.
